@@ -54,6 +54,67 @@
         <li>Вживають як джерело лакто- та біфідобактерій з метою стимулювання імунної системи</li>
       </ol>
     </div>
+    <b-container fluid>
+    <b-row class="mt-5 px-3 py-3 justify-content-between">
+      <b-col md="6" sm="12" class="flex justify-content-center mb-4">
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 35rem;"
+          class="mb-2"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+      </b-col><b-col md="6" sm="12" class="flex justify-content-center mb-4">
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 35rem;"
+          class="mb-2"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+      </b-col><b-col md="6" sm="12" class="flex justify-content-center mb-4">
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 35rem;"
+          class="mb-2"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+      </b-col><b-col md="6" sm="12" class="flex justify-content-center mb-4">
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 35rem;"
+          class="mb-2"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -133,6 +194,10 @@ ol.gradient-list {
       margin-top: 2rem;
     }
   }
+}
+
+.flex {
+  display: flex !important;
 }
 
 .navbar {
